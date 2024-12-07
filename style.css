@@ -1,0 +1,1778 @@
+:root {
+  --pink: #fd8091;
+  --bg: #7c4f32;
+  --shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  min-height: 2000px;
+  user-select: none; /* Menonaktifkan pemilihan teks */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* SECTION SATU */
+
+.satu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/base-1.png);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.satu {
+  position: relative;
+  min-height: 100vh;
+}
+
+.satu-img {
+  display: block;
+  margin: 0 auto; /* Center align and add some margin below */
+  max-width: 20rem; /* Set the maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
+.satu h1,
+.satu h3,
+.satu h5,
+.satu p {
+  color: #000;
+}
+.satu h1 {
+  font-family: "Birthstone Bounce", cursive;
+  font-weight: 500;
+  font-size: 6.5rem;
+  word-spacing: 1.5rem;
+  margin: 3rem auto 1rem auto;
+}
+.satu h5 {
+  font-size: 1.5rem;
+}
+.satu h3 {
+  font-size: 2.5rem;
+  margin: 1rem auto;
+}
+.satu p {
+  font-size: 1.5rem;
+}
+.btn-lihat-undangan {
+  border-radius: 25px;
+  width: 14rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  background-color: var(--bg); /* Warna latar belakang tombol */
+  color: white; /* Warna teks tombol */
+  border: none;
+  text-decoration: none;
+  margin-top: 1rem;
+  position: relative;
+}
+.btn-lihat-undangan:hover {
+  color: var(--bg);
+}
+.bi-envelope-open {
+  margin-right: 0.5rem;
+}
+
+/* SECTION DUA */
+
+.particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.dua {
+  position: relative;
+  background-image: url(img/base-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 32rem;
+}
+.dua .container {
+  position: relative;
+  z-index: 2;
+  width: 0 auto;
+}
+.dua img {
+  display: block;
+  margin: 1rem auto 0 auto;
+  max-width: 30rem;
+  height: auto;
+}
+#dua-judul {
+  margin: 4.5rem auto 0 auto;
+  text-align: center;
+}
+.dua h3 {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: -1rem;
+}
+.dua h1 {
+  font-family: "Birthstone Bounce", cursive;
+  font-weight: 500;
+  font-size: 7rem;
+  word-spacing: 1.5rem;
+  margin: 2rem auto;
+  color: var(--pink);
+}
+
+/* SECTION TIGA */
+
+.tiga {
+  background-image: url(img/base-2.png);
+  background-repeat: repeat;
+  background-size: 200%;
+  background-position: center;
+  width: 100%;
+  padding-top: 7.9rem;
+  padding-bottom: 7.9rem;
+}
+.tiga-bouquet {
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  max-width: 17rem;
+  height: auto;
+}
+.tiga h2 {
+  color: var(--pink);
+  font-family: "Mrs Saint Delafield", cursive;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 6.5rem;
+  word-spacing: 1rem;
+  margin-bottom: -1rem;
+}
+.tiga p {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 450;
+  line-height: 2.3rem;
+}
+.tiga-arab {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-family: "Noto Naskh Arabic", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.7rem;
+  font-weight: 450;
+  line-height: 2.3rem;
+}
+.tiga-separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+.tiga-separator::before,
+.tiga-separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 0.1rem solid #000;
+}
+.tiga-separator .love {
+  margin: 0 2rem;
+  font-size: 1.8rem;
+  color: var(--pink);
+}
+.tiga h4 {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/* SECTION EMPAT */
+
+.empat {
+  position: relative;
+  background-image: url(img/base-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.empat .container {
+  background-image: url(img/base-2.png);
+  background-repeat: repeat;
+  background-size: 200%;
+  background-position: center;
+  width: 100%;
+  padding-top: 11.2rem;
+  padding-bottom: 11.2rem;
+  border-radius: 25px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#empat-pembuka p {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 450;
+  line-height: 1.7rem;
+}
+#empat-isi {
+  margin-top: 3rem;
+  justify-content: center;
+}
+#empat-isi-data h3 {
+  font-family: "Hedvig Letters Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 2.2rem;
+  color: var(--pink);
+  text-align: center;
+}
+#empat-isi-data p {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 450;
+  line-height: 1.7rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+#empat-cewe-data img,
+#empat-cowo-data img {
+  width: 18rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 1.5rem;
+}
+.dan-separator {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%) translateY(65px);
+  max-width: 12rem;
+}
+.btn-instagram {
+  border-radius: 25%;
+  width: 2.8rem;
+  height: 2.8rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 1.8rem;
+  background-color: var(--pink);
+  border: none;
+}
+.bi-instagram {
+  color: white;
+  margin: auto;
+}
+
+/* SECTION LIMA */
+
+.lima {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  color: #fff;
+}
+.lima::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("img/countdown-1.png") no-repeat center center;
+  background-size: cover;
+  animation: backgroundAnimation 15s infinite;
+}
+@keyframes backgroundAnimation {
+  0% {
+    background-image: url("img/countdown-1.png");
+  }
+  33% {
+    background-image: url("img/countdown-2.png");
+  }
+  66% {
+    background-image: url("img/countdown-3.png");
+  }
+  100% {
+    background-image: url("img/countdown-4.png");
+  }
+}
+#lima-isi {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+#lima-isi h2 {
+  color: var(--pink);
+  font-family: "Mrs Saint Delafield", cursive;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 6rem;
+  word-spacing: 1rem;
+  position: relative;
+}
+.simply-countdown {
+  position: relative;
+}
+.simply-countdown > .simply-section {
+  width: 10rem;
+  height: 12rem;
+  margin: auto 0.4rem;
+}
+.btn-calendar {
+  border-radius: 25px;
+  width: 15rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: var(--bg);
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  margin-top: 1rem;
+  position: relative;
+}
+.bi-calendar3 {
+  margin-right: 0.5rem;
+}
+
+/* SECTION ENAM */
+
+.enam {
+  position: relative;
+  background-image: url(img/base-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.enam .container {
+  padding: 0;
+  background-image: url(img/base-2.png);
+  background-repeat: repeat;
+  background-size: 200%;
+  background-position: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  border-radius: 25px;
+  margin: 0 auto;
+  width: 55rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.enam-pembuka {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 450;
+  line-height: 1.7rem;
+}
+.enam-separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+.enam-separator::before,
+.enam-separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 0.1rem solid #000;
+}
+.enam-separator .love {
+  margin: 0 2rem;
+  font-size: 1.8rem;
+  color: var(--pink);
+}
+.enam h2 {
+  color: var(--pink);
+  font-family: "Mrs Saint Delafield", cursive;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 6rem;
+  word-spacing: 1rem;
+}
+.enam h1 {
+  font-family: "Hedvig Letters Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 3.5rem;
+}
+.enam-waktu-1,
+.enam-waktu-2 {
+  margin: 1.5rem auto;
+  font-size: 1.3rem;
+}
+.bi-geo-alt-fill {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--bg);
+}
+.enam-alamat {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 450;
+  line-height: 1.7rem;
+}
+.btn-maps-1,
+.btn-maps-2 {
+  border-radius: 25px;
+  width: 9rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  background-color: var(--bg);
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  margin-top: 1rem;
+  position: relative;
+}
+.bi-caret-right-fill {
+  margin-right: 0.5rem;
+}
+.enam-image {
+  width: 100%;
+  justify-content: center;
+  margin: 3rem 0;
+}
+.enam-image img {
+  width: 100%;
+  height: auto;
+  max-height: 30rem;
+  object-fit: cover;
+}
+
+/* SECTION TUJUH */
+
+.tujuh {
+  background-image: url(img/base-2.png);
+  background-repeat: repeat;
+  background-size: 200%;
+  background-position: center;
+  width: 100%;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+.tujuh-separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+.tujuh-separator::before,
+.tujuh-separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 0.1rem solid #000;
+}
+.tujuh-separator h2 {
+  color: var(--pink);
+  font-family: "Hedvig Letters Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 4rem;
+  margin: 0 2rem;
+}
+.timeline {
+  list-style: none;
+  padding: 1.4rem 0;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.timeline::before {
+  content: "";
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  width: 0.1rem;
+  background-color: #bebebe;
+  left: 50%;
+}
+.timeline li {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.timeline li::before,
+.timeline li::after {
+  content: "";
+  display: table;
+}
+.timeline li::after {
+  clear: both;
+}
+.timeline li .timeline-panel {
+  width: 40%;
+  float: left;
+  border: 0.1rem solid #bebebe;
+  padding: 2rem;
+  position: relative;
+  border-radius: 5%;
+  background-image: url(img/base-2.png);
+  background-repeat: repeat;
+  background-size: 200%;
+  background-position: center;
+  background-size: 0;
+}
+.timeline li.timeline-inverted .timeline-panel {
+  float: right;
+}
+.timeline li .timeline-image {
+  margin-top: 1rem;
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tujuh .timeline h2 {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 550;
+  line-height: 2rem;
+}
+.tujuh span {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.3rem;
+  font-weight: 550;
+  line-height: 1.7rem;
+}
+.tujuh p {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 450;
+  line-height: 1.7rem;
+  margin-top: 2rem;
+}
+.tujuh-slider {
+  position: relative;
+  width: 50rem;
+  background: none;
+  overflow: hidden;
+  margin: 1rem auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tujuh-slider .slides-row {
+  display: flex;
+  height: 90%;
+}
+.tujuh-slider .slides-row .slide {
+  min-width: 100%;
+}
+.tujuh-slider .slides-row .slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tujuh-slider span.next,
+.tujuh-slider span.prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 1rem;
+  color: var(--bg);
+  font-weight: bold;
+  font-size: 3rem;
+  transition: 0.5s;
+  border-radius: 0.5rem;
+  user-select: none;
+  cursor: pointer;
+  z-index: 1;
+}
+.tujuh-slider span.next {
+  right: 0.5rem;
+}
+.tujuh-slider span.prev {
+  left: 0.5rem;
+}
+.tujuh-slider span.next:hover,
+.tujuh-slider span.prev:hover {
+  background-color: #bebebe;
+  opacity: 0.8;
+  color: var(--bg);
+}
+.tujuh-slider .dots {
+  position: absolute;
+  bottom: 0.5rem;
+  z-index: 3;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.tujuh-slider .dots .dot {
+  height: 1rem;
+  width: 1rem;
+  border: 1px solid #bebebe;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.tujuh-slider .dots .active {
+  background-color: var(--bg);
+}
+.tujuh-grid {
+  width: 100%;
+  max-width: 65rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-auto-rows: 15rem;
+  grid-auto-flow: dense;
+  grid-gap: 1rem;
+}
+.tujuh-grid a {
+  position: relative;
+  background: none;
+  background-color: transparent;
+  overflow: hidden;
+}
+.tujuh-grid a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.tujuh-grid a:hover img {
+  transform: scale(1.1);
+}
+.tujuh-grid a {
+  cursor: zoom-in;
+}
+.tujuh-grid a:nth-child(3n - 2) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.container-filter-tujuh {
+  width: 55rem;
+  border: 0.1rem solid #bebebe;
+  padding: 4rem 0;
+  position: relative;
+  border-radius: 5%;
+  background-image: url(img/base-2.png);
+  background-repeat: repeat;
+  background-size: 200%;
+  background-position: center;
+  background-size: 0;
+  margin: 8rem auto 0 auto;
+}
+.tujuh-filter-judul {
+  color: var(--pink);
+  font-family: "Hedvig Letters Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 3rem;
+  margin: 0 auto;
+}
+.tujuh-filter-pembuka {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 450;
+  line-height: 1.7rem;
+  margin-top: 1rem;
+}
+.btn-filter {
+  border-radius: 25px;
+  width: 10rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: var(--bg);
+  color: white;
+  border: none;
+  text-decoration: none;
+  margin-top: 1rem;
+  position: relative;
+}
+.btn-filter i {
+  margin-right: 0.5rem;
+}
+
+/* SECTION DELAPAN */
+
+.delapan {
+  position: relative;
+  background-image: url(img/base-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.delapan .container-delapan {
+  display: flex;
+  padding: 0;
+  background-image: url(img/base-2.png);
+  background-repeat: repeat;
+  background-size: 200%;
+  background-position: center;
+  border-radius: 25px;
+  margin: 0 auto;
+  width: 55rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#img-delapan {
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+#img-delapan img {
+  width: 100%;
+  height: auto;
+  max-height: 25rem;
+  object-fit: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.delapan h2 {
+  color: var(--pink);
+  font-family: "Hedvig Letters Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 4rem;
+  text-align: center;
+  margin: 2rem auto 0 auto;
+}
+.delapan p {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 450;
+  line-height: 1.7rem;
+  text-align: center;
+}
+.delapan form label {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 450;
+}
+.delapan button {
+  background-color: var(--bg);
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+}
+.delapan button:hover {
+  background-color: transparent;
+  color: var(--bg);
+  border: none;
+  padding: 0.5rem 1.5rem;
+}
+
+/* SECTION SEMBILAN */
+.sembilan {
+  background-image: url(img/base-2.png);
+  background-repeat: repeat;
+  background-size: 200%;
+  background-position: center;
+  width: 100%;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+.container-gift-sembilan {
+  width: 55rem;
+  border: 0.1rem solid #bebebe;
+  padding: 4rem 0;
+  position: relative;
+  border-radius: 5%;
+  background-image: url(img/base-2.png);
+  background-repeat: repeat;
+  background-size: 200%;
+  background-position: center;
+  background-size: 0;
+  margin: 0 auto;
+}
+.gift-pic {
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  max-width: 7rem;
+  height: auto;
+  justify-content: center;
+}
+.sembilan-gift-judul {
+  color: var(--pink);
+  font-family: "Mrs Saint Delafield", cursive;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 6rem;
+  word-spacing: 1rem;
+}
+.sembilan-gift-pembuka {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 450;
+  line-height: 1.7rem;
+  margin-top: 1rem;
+}
+.btn-gift {
+  border-radius: 25px;
+  width: 10rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: var(--bg);
+  color: white;
+  border: none;
+  text-decoration: none;
+  margin-top: 1rem;
+  position: relative;
+}
+.btn-gift i {
+  margin-right: 0.5rem;
+}
+.sembilan .container-gift-sembilan-dua {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  padding: 2rem;
+  display: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 0.1rem solid #bebebe;
+  border-radius: 5%;
+  margin: 2rem auto 0 auto;
+}
+.container-gift-sembilan-dua.fade-in {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+.container-gift-sembilan-dua h5 {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 550;
+  line-height: 2rem;
+  color: var(--bg);
+  margin-bottom: 1rem;
+}
+.container-gift-sembilan-dua p {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 450;
+  margin-top: -0.6rem;
+}
+.container-gift-sembilan-dua img {
+  max-width: 70%;
+  height: auto;
+  margin-top: -0.3rem;
+}
+.btn-bank1 {
+  border-radius: 25px;
+  width: 12.5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  background-color: var(--bg);
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  position: relative;
+}
+.btn-bank1 i {
+  margin-right: 0.5rem;
+}
+.sembilan .separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem 0;
+}
+.sembilan .separator::before,
+.sembilan .separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 0.1rem solid #000;
+}
+.sembilan-gift-alamat {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 450;
+}
+.container-sembilan-doa {
+  width: 55rem;
+  border: 0.1rem solid #bebebe;
+  padding: 4rem 0;
+  position: relative;
+  border-radius: 5%;
+  background-image: url(img/base-2.png);
+  background-repeat: repeat;
+  background-size: 200%;
+  background-position: center;
+  background-size: 0;
+  margin: 5rem auto 0 auto;
+}
+.container-sembilan-doa .sembilan-arab {
+  margin-top: 1rem;
+  margin-bottom: -1.5rem;
+  font-family: "Noto Naskh Arabic", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.7rem;
+  font-weight: 450;
+  line-height: 2.3rem;
+}
+.container-sembilan-doa h2 {
+  color: var(--pink);
+  font-family: "Hedvig Letters Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 3rem;
+  margin: 0 auto;
+}
+.container-sembilan-doa p {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 450;
+  line-height: 1.7rem;
+  margin-top: 2rem;
+}
+.sembilan-riwayat {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.3rem;
+  font-weight: 450;
+  line-height: 1.7rem;
+  margin-top: 2rem;
+}
+
+/* SECTION SEPULUH */
+
+.sepuluh {
+  position: relative;
+  background-image: url(img/base-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.sepuluh-section {
+  background-image: url(img/base-2.png);
+  background-repeat: repeat;
+  background-size: 200%;
+  background-position: center;
+  width: 100%;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  border-radius: 25px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.sepuluh-pic {
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  max-width: 12rem;
+  height: auto;
+}
+.sepuluh-pembuka {
+  color: var(--pink);
+  font-family: "Mrs Saint Delafield", cursive;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 6rem;
+  word-spacing: 1rem;
+}
+.sepuluh-section h4 {
+  font-family: "Hedvig Letters Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  margin-top: -1.5rem;
+}
+.attendance-box-total-ucapan {
+  background: transparent;
+  border: none;
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 450;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+.attendance-summary {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* Added for better responsiveness */
+}
+.attendance-box {
+  width: 10rem;
+  height: auto;
+  background: transparent;
+  border: none;
+  padding: 1rem 0;
+  position: relative;
+  text-align: center;
+}
+.attendance-box h2 {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.7rem;
+  font-weight: 450;
+  color: var(--pink);
+}
+.attendance-box h3 {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 450;
+  margin-bottom: 1rem;
+  color: #000;
+}
+.form-group {
+  margin-bottom: 0.7rem;
+}
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 0.7rem;
+  box-sizing: border-box;
+  border: 0.1rem solid #bebebe;
+}
+.form-group textarea {
+  resize: vertical;
+}
+.form-group button {
+  background-color: var(--bg);
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  margin-top: 1rem;
+}
+.form-group button:hover {
+  background-color: transparent;
+  color: var(--bg);
+  border: none;
+  padding: 0.5rem 1.5rem;
+}
+.messages {
+  margin-top: 3rem;
+  max-height: 40rem;
+  overflow-y: auto;
+}
+.messages::-webkit-scrollbar {
+  display: none;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem;
+  border: 0.1rem solid #bebebe;
+  margin-bottom: 1rem;
+  background-color: white;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+}
+.message-content {
+  margin-left: 0.2rem;
+  margin-top: 1rem;
+  text-align: left;
+  flex: 1;
+  overflow-wrap: break-word;
+}
+.message-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.message-header .status {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: bold;
+}
+.message-header .status span {
+  margin-left: 0.5rem;
+}
+.profile-name-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.profile-name-wrapper .status {
+  display: flex;
+  margin-left: -1rem;
+}
+.status-img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.2rem;
+}
+.pagination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+.pagination-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.page-button {
+  padding: 0.5rem 1rem;
+  margin: 0.7rem 0.5rem;
+  border: none;
+  background-color: var(--pink);
+  cursor: pointer;
+  color: white;
+}
+.page-button:hover {
+  background: transparent;
+  color: var(--bg);
+}
+.page-button.active {
+  background-color: var(--bg);
+  color: white;
+}
+.page-button:disabled {
+  display: none;
+}
+
+/* SECTION SEBELAS */
+
+.sebelas {
+  position: relative;
+  background-image: url(img/base-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-top: 19rem;
+  padding-bottom: 19rem;
+}
+#sebelas-isi {
+  margin: auto 0 auto 5rem;
+  text-align: center;
+}
+.sebelas-img-pasangan {
+  max-width: 30rem;
+  margin: auto;
+  height: auto;
+}
+.sebelas h2 {
+  color: var(--pink);
+  font-family: "Mrs Saint Delafield", cursive;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 6rem;
+  word-spacing: 1rem;
+}
+.sebelas p {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 450;
+  line-height: 1.7rem;
+  margin-top: -1rem;
+}
+.sebelas h3 {
+  font-family: "Birthstone Bounce", cursive;
+  font-weight: 500;
+  font-size: 3.5rem;
+  margin: 1rem auto 2rem auto;
+  color: var(--pink);
+}
+.sebelas a {
+  text-decoration: none;
+  color: inherit;
+}
+.sebelas-img-logo {
+  display: block;
+  margin: 0 auto 1rem auto;
+  max-width: 3rem;
+  height: auto;
+}
+
+.sebelas h5 {
+  font-family: "Hedvig Letters Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.fullscreen-btn {
+  position: fixed;
+  left: 2rem;
+  bottom: 10%;
+  transform: translateY(-50%);
+  margin-bottom: 5rem;
+  z-index: 1000;
+}
+.fullscreen-btn .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto 2rem auto 2rem;
+  font-size: 2rem;
+  background-color: var(--bg);
+  color: white;
+  border: none;
+  border-radius: 50%;
+}
+.audio-icon-wrapper {
+  position: fixed;
+  left: 2rem;
+  bottom: 10%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+.audio-icon-wrapper .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto 2rem auto 2rem;
+  font-size: 2rem;
+  background-color: var(--bg);
+  color: white;
+  border: none;
+  border-radius: 50%;
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Media Query */
+/* Extra Large */
+@media (max-width: 1200px) {
+  .dua img {
+    display: block;
+    margin: 5rem auto 0 auto;
+    max-width: 85%;
+    height: auto;
+    border-radius: 50%;
+  }
+  #dua-judul {
+    margin: 7.7rem auto 0 auto;
+    text-align: center;
+  }
+  .dua h1 {
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 500;
+    font-size: 5.5rem;
+    margin: 1.5rem auto;
+    word-spacing: 0;
+    color: var(--pink);
+  }
+
+  .timeline li .timeline-image {
+    margin-top: 1rem;
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .tujuh-grid {
+    width: 90%;
+    max-width: 100rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    grid-gap: 1rem;
+  }
+}
+
+/* laptop */
+@media (max-width: 992px) {
+  .fullscreen-btn {
+    position: fixed;
+    left: 0;
+    bottom: 12%;
+    transform: translateY(-50%);
+    margin-bottom: 5rem;
+    z-index: 1000;
+  }
+  .audio-icon-wrapper {
+    position: fixed;
+    left: 0;
+    bottom: 12%;
+    transform: translateY(-50%);
+    z-index: 1000;
+  }
+  html {
+    font-size: 75%;
+  }
+  .satu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/base-1-min.png);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  .satu-img {
+    display: block;
+    margin: 0 auto; /* Center align and add some margin below */
+    max-width: 24rem; /* Set the maximum width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .satu h1,
+  .satu h3,
+  .satu h5,
+  .satu p {
+    color: var(--bg);
+  }
+  .satu h1 {
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 500;
+    font-size: 4.5rem;
+    word-spacing: 1.5rem;
+    margin: 3rem auto 1rem auto;
+  }
+
+  .satu h5 {
+    font-size: 1.5rem;
+  }
+  .satu h3 {
+    font-size: 2rem;
+    margin: 1rem auto;
+  }
+  .btn-lihat-undangan {
+    width: 18rem;
+    font-size: 1.5rem;
+  }
+  .dua {
+    position: relative;
+    background-image: url(img/base-1-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 32rem;
+  }
+  .tiga h2 {
+    font-size: 4.5rem;
+  }
+  .empat {
+    position: relative;
+    background-image: url(img/base-1-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  #empat-isi-data h3 {
+    font-family: "Hedvig Letters Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 3rem;
+    color: var(--pink);
+    text-align: center;
+  }
+  #empat-cewe-data img,
+  #empat-cowo-data img {
+    width: 100%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 1.5rem;
+  }
+  .dan-separator {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 4rem auto;
+  }
+  #lima-isi h2 {
+    font-size: 4.5rem;
+  }
+  .enam {
+    position: relative;
+    background-image: url(img/base-1-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .enam .container {
+    width: 90%;
+  }
+  .enam h2 {
+    font-size: 5rem;
+  }
+  .enam h1 {
+    font-size: 3rem;
+  }
+  .tujuh-separator h2 {
+    font-size: 3.5rem;
+  }
+  .timeline {
+    list-style: none;
+    padding: 1.4rem 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  .timeline::before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 0.1rem;
+    background-color: #bebebe;
+    left: 5rem;
+  }
+  .timeline li .timeline-panel {
+    width: 35rem;
+    float: right;
+    border: 0.1rem solid #bebebe;
+    padding: 2rem;
+    position: relative;
+    border-radius: 5%;
+    background-image: url(img/base-2.png);
+    background-repeat: repeat;
+    background-size: 200%;
+    background-position: center;
+    background-size: 0;
+  }
+  .timeline li.timeline-inverted .timeline-panel {
+    float: right;
+  }
+  .timeline li .timeline-image {
+    width: 10rem;
+    height: 10rem;
+    left: 5rem;
+    position: absolute;
+  }
+  .delapan {
+    position: relative;
+    background-image: url(img/base-1-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .delapan h2 {
+    font-size: 3.5rem;
+  }
+  .sembilan-gift-judul {
+    font-size: 4.5rem;
+  }
+  .sepuluh {
+    position: relative;
+    background-image: url(img/base-1-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .sepuluh-pembuka {
+    font-size: 4.5rem;
+  }
+  .messages {
+    max-height: 30rem;
+  }
+  #sebelas-isi {
+    margin: 2rem auto;
+    text-align: center;
+  }
+  .sebelas {
+    position: relative;
+    background-image: url(img/base-1-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+  }
+  .sebelas-img-pasangan {
+    max-width: 30rem;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .sebelas-img-logo {
+    display: block;
+    margin: 0 auto 1rem auto;
+    max-width: 4rem;
+    height: auto;
+  }
+  /* Floating Navbar CSS */
+  .floating-navbar {
+    width: 80%;
+    height: auto;
+    position: fixed;
+    bottom: 2.2%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 1000;
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.7);
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 5rem;
+    opacity: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .floating-navbar .nav-icon {
+    padding: 3.8%;
+    text-align: center;
+    align-items: center;
+  }
+  .floating-navbar .nav-icon img {
+    width: 11%;
+    height: 11%;
+    margin: 2% 0;
+    object-fit: cover;
+  }
+  .floating-navbar .nav-icon:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5rem;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+  #dua-judul {
+    margin: 3rem auto 0 auto;
+    text-align: center;
+  }
+  .dua h1 {
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 500;
+    font-size: 5rem;
+    word-spacing: 1.3rem;
+    margin: 1.5rem auto;
+    color: var(--pink);
+  }
+  .tiga-bouquet {
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    max-width: 15rem;
+    height: auto;
+  }
+  .tiga-arab {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-family: "Noto Naskh Arabic", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.6rem;
+    font-weight: 450;
+    line-height: 2.3rem;
+  }
+  .tiga p {
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.4rem;
+    font-weight: 450;
+    line-height: 2.3rem;
+  }
+  .tiga h4 {
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .timeline li .timeline-panel {
+    width: 75%;
+  }
+  .timeline li .timeline-image {
+    width: 10rem;
+    height: 10rem;
+  }
+  .container-filter-tujuh {
+    width: 90%;
+  }
+  .delapan .container-delapan {
+    width: 90%;
+  }
+  .container-gift-sembilan {
+    width: 90%;
+  }
+  .container-sembilan-doa {
+    width: 90%;
+  }
+}
+
+/* mobile phone */
+@media (max-width: 576px) {
+  html {
+    font-size: 60%;
+  }
+  .tujuh-grid {
+    width: 90%;
+    max-width: 100rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    grid-gap: 1rem;
+  }
+  .empat .container {
+    width: 90%;
+  }
+  #empat-cewe-data img,
+  #empat-cowo-data img {
+    width: 25rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1.5rem;
+  }
+  .dan-separator {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 5rem auto;
+  }
+  .simply-countdown > .simply-section {
+    width: 6.5rem;
+    height: 10rem;
+    margin: auto 0.4rem;
+  }
+  .enam .container {
+    width: 90%;
+  }
+  .timeline li .timeline-panel {
+    width: 70%;
+  }
+  .timeline li .timeline-image {
+    width: 8rem;
+    height: 8rem;
+  }
+  .tujuh-slider {
+    width: 90%;
+  }
+  .tujuh-grid .grid-item:nth-child(3n - 2) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  .container-filter-tujuh {
+    width: 90%;
+  }
+  .delapan .container-delapan {
+    width: 90%;
+  }
+  .container-gift-sembilan {
+    width: 90%;
+  }
+  .container-sembilan-doa {
+    width: 90%;
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "modelName": "texture",
+  "name": "Color Lut  (71)",
+  "identifier": "texture:450335-10e012d5-90dc-43e4-8989-c3b2db703785",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "6da3e2047bb35e461a4e60e13b34251b",
+  "assetLocator": "textures/Color Lut  (71).jpg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:450455-10e012d5-90dc-43e4-8989-c3b2db703785",
+    "textureExportConfig:450577-10e012d5-90dc-43e4-8989-c3b2db703785",
+    "textureExportConfig:450701-10e012d5-90dc-43e4-8989-c3b2db703785"
+  ],
+  "filter": "bilinear",
+  "folder": "",
+  "hasOfflineMipmaps": false,
+  "height": 512,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 512,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "6da3e2047bb35e461a4e60e13b34251b",
+      "colorCount": 195132,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 17.243616183099963,
+      "pixelsHigh": 512,
+      "pixelsWide": 512
+    }
+  ]
+}

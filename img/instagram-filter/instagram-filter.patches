@@ -1,0 +1,99 @@
+{
+  "id": "34921910e012d590dc43e48989c3b2db703785",
+  "revision": "45785510e012d590dc43e48989c3b2db703785",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 187
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 187
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:451217-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "fromPatch": "producer_patch_model:450955-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "fromPort": "0",
+        "toPatch": "patch_asset_instance_model:451085-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:451221-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "fromPatch": "patch_asset_instance_model:451085-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:451219-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:451225-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "fromPatch": "producer_patch_model:451223-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "fromPort": "0",
+        "toPatch": "patch_asset_instance_model:451085-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "toPort": "102"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:349307-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "subpatches": [
+          "consumer_patch_model:451219-10e012d5-90dc-43e4-8989-c3b2db703785",
+          "patch_asset_instance_model:451085-10e012d5-90dc-43e4-8989-c3b2db703785",
+          "producer_patch_model:450955-10e012d5-90dc-43e4-8989-c3b2db703785",
+          "producer_patch_model:451223-10e012d5-90dc-43e4-8989-c3b2db703785"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "material0",
+        "identifier": "consumer_patch_model:451219-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "object": "defaultMaterial:350139-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "objectProperty": "diffuse_texture_slot",
+        "position": [
+          499,
+          91
+        ]
+      },
+      {
+        "modelName": "patch_asset_instance_model",
+        "name": "FastColorLUT",
+        "identifier": "patch_asset_instance_model:451085-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "patchAsset": "patch_data_base_model:449997-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "position": [
+          256.45001220703125,
+          81.4000015258789
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "cameraTexture0",
+        "identifier": "producer_patch_model:450955-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "object": "cameraTexture:450827-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "position": [
+          51.25,
+          83.75
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "Color Lut  (71)",
+        "identifier": "producer_patch_model:451223-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "object": "texture:450335-10e012d5-90dc-43e4-8989-c3b2db703785",
+        "position": [
+          115,
+          211
+        ]
+      }
+    ]
+  }
+}
